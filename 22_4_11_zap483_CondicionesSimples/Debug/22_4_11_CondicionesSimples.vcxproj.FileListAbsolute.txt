@@ -1,0 +1,3 @@
+C:\Users\DSI208\source\repos\22_4_11_CondicionesSimples\Debug\22_4_11_CondicionesSimples.exe
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\22_4_11_CondicionesSimples\Debug\22_4_11_CondicionesSimples.exe
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_4_11_CondicionesSimples\Debug\22_4_11_CondicionesSimples.exe

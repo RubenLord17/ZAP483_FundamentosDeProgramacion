@@ -1,0 +1,9 @@
+﻿  tipo_de_datos.cpp
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(56,10): warning C4473: "scanf_s": no se pasaron suficientes argumentos para la cadena de formato
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(56,10): message : los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(56,10): message : el argumento variádico 2 que falta es requerido por la cadena de formato '%20s'
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(56,10): message : este argumento se utiliza como un tamaño de búfer
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(57,9): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'int'
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(59,10): warning C4477: 'scanf_s' : la cadena de formato '%i' requiere un argumento de tipo 'int *', pero el argumento variádico 1 tiene el tipo 'double *'
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\tipo_de_datos.cpp(60,9): warning C4477: 'printf' : la cadena de formato '%i' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'double'
+  22_03_24_zap483_tipos_de_datos.vcxproj -> D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_03_24_zap483_tipos_de_datos\Debug\22_03_24_zap483_tipos_de_datos.exe

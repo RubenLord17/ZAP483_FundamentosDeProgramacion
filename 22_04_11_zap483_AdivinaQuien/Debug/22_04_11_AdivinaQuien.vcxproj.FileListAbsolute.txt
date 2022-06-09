@@ -1,0 +1,3 @@
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\22_04_11_AdivinaQuien\Debug\22_04_11_AdivinaQuien.exe
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_04_11_AdivinaQuien\Debug\22_04_11_AdivinaQuien.exe
+D:\DSI208\Escritorio\zap483_fundamentos_de_programacion\ZAP483_amerike\22_04_11_zap483_AdivinaQuien\Debug\22_04_11_AdivinaQuien.exe
