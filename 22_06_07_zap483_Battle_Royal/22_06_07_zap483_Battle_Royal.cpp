@@ -11,19 +11,26 @@ using namespace std;
 
 struct player
 {
-	std::string nombre;
-	int vida;
-	int ataque;
-	int fuerza;
-	int velocidad;
-	
-	
+	string nombre;
+	int vida=0;
+	int ataque=0;
+	int fuerza=0;
+	int velocidad=0;	
 }n[8];
+
+void players()
+{
+	for (int i=0; i <= 7; i++)
+	{
+	cout << "Escribe tu nombre jugador #" << i + 1 << ":\n";
+	getline(cin, n[i].nombre);
+	}	
+}
+
 
 void atributos()
 {
-	srand(time(NULL));
-	
+	/*
 	n[0].nombre = "Cris ";
 	
 
@@ -61,7 +68,7 @@ void atributos()
 	
 	n[7].nombre = "El Alex";
 	
-
+	*/
 	for (int i = 0; i <= 7; i++)
 	{
 		n[i].vida = rand() % 10;
@@ -79,8 +86,6 @@ void atributos()
 		cout << " Su Fuerza: " << n[i].fuerza << endl;
 		cout << " Su Velocidad: " << n[i].velocidad << endl;
 	}
-
-
 }
 
 void ganadores(int vidam, int vidag, int vidaMin, int vidaP, int ataquem, int ataqueg, int ataqueMin, int ataqueP, int fuerzam, int fuerzag, int fuerzaMin, int fuerzaP, int velocidadm, int velocidadg, int velocidadMin, int velocidadP)
@@ -159,17 +164,12 @@ int main()
 	int vidaMin = 10, ataqueMin = 10, fuerzaMin = 10, velocidadMin = 10, vidaP = 0, ataqueP = 0, fuerzaP = 0, velocidadP = 0;
 	srand(time(NULL));
 	player();
-	std::cout << "Los jugadores con sus atributos son: \n\n";
+	players();
+	cout << "Los jugadores con sus atributos son: \n\n";
 	atributos();
 	system("pause");
 	ganadores (vidam, ataquem, fuerzam, velocidadm, vida, ataque, fuerza, velocidad, vidaMin, ataqueMin, fuerzaMin, velocidadMin, vidaP, ataqueP, fuerzaP, velocidadP);
 }
 
-/*
-void main()
-{
-	atributos();
 
-}
-*/
 
